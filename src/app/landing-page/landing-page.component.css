@@ -1,7 +1,3 @@
-.container-fluid {
-	width: 100%;
-	min-height: 100%;
-}
 #video-background {
 	position: absolute;
 	bottom: 0px;
@@ -10,13 +6,13 @@
 	min-height: 100%;
 	width: auto;
 	height: auto;
-	z-index: -1;
+	z-index: -2;
 	overflow: hidden;
 }
 #nav {
 	background-color: #000;
 	z-index: 1000;
-	position: sticky;
+	position: fixed;
 	top: 0;
 	left: 0;
 	border: none;
@@ -25,9 +21,19 @@
     width: 4em;
     height: 3.6em;
 }
+#con1 {
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width:100%;
+	height: 100vh;
+	padding-top: 10vh;
+	z-index: -2;
+}
 /*avatar*/
 #avatarcol {
-	margin-top: 6vh;
 }
 #avatar {
 	width: 30vh;
@@ -64,6 +70,7 @@ section {
   width: 100%;
   height: 100%;
   top: 8vh;
+  overflow: inherit;
 }
 section::after {
   position: absolute;
@@ -128,19 +135,23 @@ div h5 {
   }
 }
 #con2 {
-	z-index: -1;
-	margin-top: 30vh;
+	z-index: -2;
+	padding-top: 8vh;
+	background-image: url('/src/assets/image/Group%202.png');
+	background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 88% 84%;
 }
 #contact {
 	padding-left: 8%;
-	height: 38vh;
+	height: 240px;
 	display: block;
 }
 #info {
-	height: 38vh;
-	display: block;
+	height: 240px;
+	display: inline-block;
 	float: left;
-	margin-left: 5%;
+	margin-left: 2.2%;
 }
 #introduce {
 	font-family: "Source Code Pro";
@@ -148,6 +159,16 @@ div h5 {
 	line-height: 1.25;
 	text-align: left;
 	color: #31ff00;
-	display: block;
-	padding-left: 8%;
+	display: inline-block;
+	padding-left: 9%;
 }
+#sign1 {
+	padding-left: 62.5%;
+	position: relative;
+	height: 150px;
+}
+#sign1 img {
+	margin-top: -2%;
+	height: 200px;
+}
+
