@@ -228,5 +228,48 @@ div h5 {
 	height: 86%;
 	z-index: 1;
 }
+.year {
+	color: #31ff00;
+	font-family: "BankGothic";
+}
+#y1 {
+	position: absolute;
+	right: 12.25%;
+	top: 40%;
+	font-size: 3.5vh;
+}
+#y2 {
+	position: absolute;
+	right: 29.4%;
+	top: 40%;
+	font-size: 3.5vh;
+}
+#y3 {
+	position: absolute;
+	right: 12.25%;
+	top: 57.2%;
+	font-size: 3.5vh;
+}
+#dey1 {
+	text-align: left;
+	position: absolute;
+	right: 4%;
+	top: 46%;
+	font-size: 2.5vh;
+}
+#dey2 {
+	text-align: right;
+	position: absolute;
+	right: 29.5%;
+	top: 46%;
+	font-size: 2.5vh;
+}
+#dey3 {
+	text-align: left;
+	position: absolute;
+	right: 5.5%;
+	top: 63%;
+	font-size: 2.5vh;
+}
 /**/
 
