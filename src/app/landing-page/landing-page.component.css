@@ -139,7 +139,7 @@ div h5 {
 	background-image: url('/src/assets/image/Group%202.png');
 	background-repeat: no-repeat;
     background-position: left center;
-    background-size: 87.5% 86%;
+    background-size: 88% 86%;
     height: 700px;
 }
 #contact {
@@ -168,7 +168,7 @@ div h5 {
 	height: 150px;
 }
 #sign1 img {
-	margin-top: -2%;
+	margin-top: -5%;
 	height: 200px;
 }
 /**/
@@ -179,44 +179,44 @@ div h5 {
 	background-image: url('/src/assets/image/Group%202.png');
 	background-repeat: no-repeat;
     background-position: right center;
-    background-size: 88% 86%;
+    background-size: 91% 88%;
     margin-top: -8vh; 
-	height: 980px;
+	height: 958px;
 	position: relative;
 }
 #experi {
 	position: absolute;
 	top: 8%;
 	left: 31%;
-	height: 30%;
+	height: 240px;
 	z-index: 2;
 }
 #gif {
 	border: 5px solid #1D9500;
 	position: absolute;
-	left: 18.5%;
-	top: 14.5%;
+	left: 16%;
+	top: 13.4%;
 	width: 26%;
 	z-index: 1;
 }
 #ob1 {
 	position: absolute;
-	left: 8%;
-	top: 44%;
-	width: 30%;
+	left: 4%;
+	top: 42%;
+	width: 34%;
 	height: auto;
 	z-index: 0;
 }
 #ob2 {
 	position: absolute;
-	left: 13%;
+	left: 10%;
 	top: 36%;
 	width: 16%;
 	z-index: 2;
 }
 #ob3 {
 	position: absolute;
-	left: 15%;
+	left: 12%;
 	top: 58%;
 	width: 18%;
 	z-index: 1;
@@ -224,7 +224,7 @@ div h5 {
 #ob4 {
 	position: absolute;
 	right: 16%;
-	top: 7%;
+	top: 8%;
 	width: 22%;
 	height: 86%;
 	z-index: 1;
@@ -232,45 +232,146 @@ div h5 {
 .year {
 	color: #31ff00;
 	font-family: "BankGothic";
+	font-size: 4vh;
 }
 #y1 {
 	position: absolute;
-	right: 12.25%;
-	top: 40%;
-	font-size: 3.5vh;
+	right: 10.5%;
+	top: 41%;
 }
 #y2 {
 	position: absolute;
 	right: 29.4%;
-	top: 40%;
-	font-size: 3.5vh;
+	top: 41%;
 }
 #y3 {
 	position: absolute;
-	right: 12.25%;
-	top: 57.2%;
-	font-size: 3.5vh;
+	right: 10.5%;
+	top: 58.2%;
 }
 #dey1 {
 	text-align: left;
 	position: absolute;
-	right: 4%;
-	top: 46%;
-	font-size: 2.5vh;
+	right: 2.5%;
+	top: 47%;
+	font-size: 2.7vh;
+	font-weight: bolder;
 }
 #dey2 {
 	text-align: right;
 	position: absolute;
 	right: 29.5%;
-	top: 46%;
-	font-size: 2.5vh;
+	top: 47%;
+	font-size: 2.7vh;
+	font-weight: bolder;
 }
 #dey3 {
 	text-align: left;
 	position: absolute;
-	right: 5.5%;
-	top: 63%;
-	font-size: 2.5vh;
+	right: 4%;
+	top: 64%;
+	font-size: 2.7vh;
+	font-weight: bolder;
 }
 /**/
 
+/*con4*/
+.title {
+	color: #31ff00;
+	font-family: "BankGothic";
+}
+#con4 {
+	z-index: -2;
+	background-image: url('/src/assets/image/Group%202.png');
+	background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 88% 92%;
+	height: 700px;
+	position: relative;
+}
+#skill {
+	position: absolute;
+	height: 240px;
+}
+#ob5 {
+	position: absolute;
+	top: -16%;
+	right: 7%;
+	height: 270px;
+}
+#dd {
+	position: absolute;
+	left: 8%;
+	top: 34%;
+	font-size: 5vh;
+}
+#ob6 {
+	position: absolute;
+	left: 5%;
+	top: 40%;
+	height: 3%;
+}
+#li1 {
+	position: absolute;
+	left: 8%;
+	top: 42%;
+	font-size: 3.3vh;
+	font-weight: bolder;
+	line-height: 1.8;
+}
+#lang {
+	position: absolute;
+	left: 8%;
+	top: 66%;
+	font-size: 5vh;
+}
+#ob7 {
+	position: absolute;
+	left: 5%;
+	top: 72%;
+	height: 3%;
+}
+#li2 {
+	position: absolute;
+	left: 8%;
+	top: 74%;
+	font-size: 3.3vh;
+	font-weight: bolder;
+	line-height: 1.8;
+}
+#line1 {
+	position: absolute;
+	top: 44.5%;
+	left: 22%;
+	width: 40%;
+}
+#line2 {
+	position: absolute;
+	top: 50%;
+	left: 22%;
+	width: 40%;
+}
+#line3 {
+	position: absolute;
+	top: 55.5%;
+	left: 22%;
+	width: 40%;
+}
+#line4 {
+	position: absolute;
+	top: 61%;
+	left: 22%;
+	width: 40%;
+}
+#line5 {
+	position: absolute;
+	top: 76.5%;
+	left: 22%;
+	width: 40%;
+}
+#line6 {
+	position: absolute;
+	top: 82%;
+	left: 22%;
+	width: 40%;
+}
