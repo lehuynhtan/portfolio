@@ -149,9 +149,8 @@ div h5 {
 }
 #info {
 	height: 240px;
-	display: inline-block;
-	float: left;
-	margin-left: 2.2%;
+	float: right;
+	margin-right: 4.4%;
 }
 #introduce {
 	font-family: "Source Code Pro";
@@ -160,7 +159,7 @@ div h5 {
 	text-align: left;
 	color: #31ff00;
 	display: inline-block;
-	padding-left: 9%;
+	padding-left: 7%;
 }
 #sign1 {
 	padding-left: 62.5%;
@@ -224,10 +223,10 @@ div h5 {
 #ob4 {
 	position: absolute;
 	right: 16%;
-	top: 8%;
-	width: 22%;
-	height: 86%;
-	z-index: 1;
+	top: 6%;
+	width: auto;
+	height: 88%;
+	z-index: -1;
 }
 .year {
 	color: #31ff00;
@@ -237,31 +236,31 @@ div h5 {
 #y1 {
 	position: absolute;
 	right: 10.5%;
-	top: 41%;
+	top: 39.7%;
 }
 #y2 {
 	position: absolute;
-	right: 29.4%;
-	top: 41%;
+	right: 28.7%;
+	top: 39.7%;
 }
 #y3 {
 	position: absolute;
 	right: 10.5%;
-	top: 58.2%;
+	top: 57.2%;
 }
 #dey1 {
 	text-align: left;
 	position: absolute;
 	right: 2.5%;
-	top: 47%;
+	top: 45.7%;
 	font-size: 2.7vh;
 	font-weight: bolder;
 }
 #dey2 {
 	text-align: right;
 	position: absolute;
-	right: 29.5%;
-	top: 47%;
+	right: 28.7%;
+	top: 45.7%;
 	font-size: 2.7vh;
 	font-weight: bolder;
 }
@@ -269,7 +268,7 @@ div h5 {
 	text-align: left;
 	position: absolute;
 	right: 4%;
-	top: 64%;
+	top: 63%;
 	font-size: 2.7vh;
 	font-weight: bolder;
 }
@@ -375,3 +374,45 @@ div h5 {
 	left: 22%;
 	width: 40%;
 }
+/**/
+
+/*con5*/
+#con5 {
+	z-index: -2;
+	background-image: url('/src/assets/image/Group%2051.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+	height: 670px;
+	position: relative;
+}
+.p {
+	width: 100%;
+	font-family: "Source Code Pro";
+	font-size: 1.6vw;
+	color: #aeaeae;
+	line-height: calc(1rem + 0.7rem);
+	white-space: pre-wrap;
+	word-wrap: break-word; 
+}
+.p:after {
+	content: "";
+	display: inline-block;
+	width: 0.7rem;
+	height: 1.1rem;
+	background-color: #31ff00;
+	animation-name: dot;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+}
+@keyframes dot {
+	from {
+		background-color: #31ff00;
+		box-shadow: 0px 0px 2px GreenYellow;
+	}
+	to {
+		background-color: #000;
+		box-shadow: 0px 0px 2px #000;
+	}
+}
+/**/
